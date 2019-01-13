@@ -1,0 +1,329 @@
+.content {
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.3;
+}
+.invalid-feedback {
+  font-size: 0.9rem;
+}
+.input-range {
+  .input-range__label--min {
+    visibility: hidden;
+  }
+  .input-range__label--max {
+    visibility: hidden;
+  }
+}
+
+.jsx-4179805763 {
+  width: 100%;
+}
+
+ul.jsx-4179805763 {
+  bottom: -120px;
+  background: white;
+  z-index: 101;
+}
+
+.logo {
+  .logo-img {
+    width: 55px;
+    margin: 10px auto;
+  }
+}
+
+.input-range__track--active,
+.input-range__slider {
+  background: #51cbce;
+  border-color: #51cbce;
+}
+
+:not(.modal-content, .tab-pane) > .css-79elbk {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+textarea::-webkit-input-placeholder {
+  color: #c9c9c9 !important;
+}
+
+textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #c9c9c9 !important;
+}
+
+textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c9c9c9 !important;
+}
+
+textarea:-ms-input-placeholder {
+  color: #c9c9c9 !important;
+}
+
+textarea::placeholder {
+  color: #c9c9c9 !important;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  color: transparent !important;
+}
+textarea:focus::-moz-placeholder {
+  color: transparent !important;
+}
+textarea:focus:-moz-placeholder {
+  color: transparent !important;
+}
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.sidebar {
+  .nav {
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+.progess-container {
+  margin-top: 10px;
+
+  .progress-value {
+    padding-left: 5px;
+  }
+}
+
+.run-immediately {
+  .descriptor {
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  i {
+    font-size: 16px;
+    padding: 5px;
+    display: inline;
+  }
+  .nc-alert-circle-i {
+    margin-left: 5px;
+  }
+  .nc-bulb-63 {
+  }
+}
+
+.sweet-alert {
+  p {
+    margin-bottom: 0;
+
+    .btn {
+    }
+  }
+}
+.campaign-builder-card {
+  .disabled {
+    color: #e0e0e0 !important;
+    font-style: italic;
+  }
+}
+.camp-status-text {
+  display: block;
+  font-size: 10px;
+}
+
+.gray-text {
+  font-weight: 400;
+  color: #9a9a9a;
+  font-size: 1em;
+}
+
+.Checkout {
+  margin: 0 auto;
+  max-width: 800px;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px,
+    rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+.StripeElement.IdealBankElement,
+.StripeElement.PaymentRequestButton {
+  padding: 0;
+}
+.timeline .timeline-badge {
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: -10px !important;
+  top: 30px !important;
+}
+.prospects-table,
+.campaign-manager-table,
+.sequence-manager-table {
+  .rt-thead .rt-th:last-child,
+  .ReactTable .rt-thead .rt-td:last-child {
+  }
+  .rt-td {
+    font-weight: 100;
+    font-size: 16px;
+  }
+}
+.prospects-table {
+  .rt-thead {
+    text-align: left;
+  }
+  .headline {
+  }
+}
+
+//LI ACCOUNTS PAGE
+.lipage-stats {
+  font-size: 1rem;
+  padding: 10px 0 10px !important;
+  margin: 0;
+  line-height: normal;
+  text-align: center;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.liaccount {
+  cursor: pointer;
+  border: 1px solid white;
+
+  .liac-bottom {
+    padding: 10px 0;
+  }
+  .close-btn {
+    padding: 7px;
+    float: right;
+  }
+  .badge {
+  }
+
+  &:hover {
+    border: 1px solid #e0e0e0;
+  }
+
+  .li-user-info {
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+
+  .card-body {
+    padding: 0 15px;
+  }
+  p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .photo {
+    border-radius: 50%;
+  }
+
+  .svg-inline--fa {
+    height: 1.3em;
+    width: 1.3em !important;
+    cursor: pointer;
+    &:hover {
+      color: $info-color;
+    }
+  }
+}
+.liaccount-new {
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid #e0e0e0;
+  }
+}
+
+.pros-btn-disabled {
+  opacity: 0.2;
+}
+
+.dash-daily-table {
+  .table-responsive {
+    padding-bottom: 0;
+  }
+  .ReactTable {
+    .-pagination {
+      .-pageInfo {
+        display: none;
+      }
+    }
+    .rt-th {
+    }
+  }
+}
+.prospects-table {
+  .ReactTable {
+    .-pagination {
+      .-pageInfo {
+        display: none;
+      }
+    }
+  }
+}
+
+.camp-man-status {
+  text-align: center !important;
+}
+
+.badge-brown-border {
+  border-color: #66615b;
+  color: #66615b;
+}
+
+.activity-badges {
+  white-space: normal;
+}

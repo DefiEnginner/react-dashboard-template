@@ -1,0 +1,223 @@
+.ReactTable {
+  font-size: 1.1rem;
+  .rt-table {
+    border: none !important;
+
+    .rt-td {
+      border-right:none !important;;
+    }
+    .rt-thead .rt-th {
+     
+    }
+    .rt-thead{
+    }
+  }
+}
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: white !important;
+  color: black !important;
+}
+.content {
+  h4 {
+    
+  }
+  .add-btn {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+}
+.sidebar-wrapper{
+  .info{
+    span{
+      display: block;
+      line-height: 18px;
+      color:white;
+      padding: 0.5rem 15px;
+    }
+  }
+}
+.sequencelist {
+  label {
+    display: block;
+    margin-bottom: 0;
+  }
+}
+.sequence-name-field {
+  width: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.clear-both {
+  display: block;
+}
+
+
+
+.content {
+  .card-header {
+    background: none;
+    border-bottom: none;
+  }
+}
+
+.sequencelist {
+  .ReactTable .rt-thead .rt-th.-cursor-pointer {
+    text-align: center;
+  }
+}
+
+.inputfield {
+  margin-bottom: 30px;
+  .descriptor {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 12px;
+    opacity: 0.4;
+  }
+
+  .inputfieldname {
+    margin-bottom: 5px;
+  }
+}
+
+.campaign-builder-card {
+  padding-top: 30px;
+
+  .nav-tabs .nav-item .nav-link.active {
+    //font-weight: bold;
+    background: #f2f2f2 !important;
+  }
+}
+
+.nav-tabs-navigation .nav > .nav-item > .nav-link {
+  padding: 15px !important;
+  font-weight: bold;
+}
+
+.nc-simple-add {
+  font-weight: bold;
+}
+
+.invalid-feedback {
+  font-size: 1rem;
+}
+
+.login-page .card-login .input-group:last-child {
+  margin-bottom: 0px !important;
+}
+.card-signup .card-footer {
+  margin-top: 0px !important;
+}
+
+.campaign-builder-card .nav-tabs .nav-item .nav-link {
+  font-size: 1rem;
+}
+.camp-progress {
+  margin-top: 10px;
+  height: 20px;
+}
+
+.camp-prospect {
+  .rt-td {
+    text-align: left !important;
+  }
+}
+
+.ReactTable {
+  .img-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .img-row {
+    max-width: 60px;
+    width: 60px;
+  }
+}
+
+.ReactTable .rt-thead .rt-resizable-header-content,
+.ReactTable .rt-table .rt-td,
+.ReactTable .rt-thead .rt-th {
+  text-align: left;
+}
+
+.card h6 {
+  text-transform: none;
+}
+
+.camp-dash-progress .card-title {
+  color: #252422;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+.camp-dash {
+  .card-title {
+    margin: 0 !important;
+  }
+
+  .tab {
+    position: relative;
+    margin: 2px;
+  }
+
+  /* [THE LABEL] */
+  .tab input {
+    display: none;
+  }
+  .tab label {
+    display: inline-block;
+    cursor: pointer;
+    width:auto;
+  }
+  .tab label::after {
+    content: "\25b6";
+    position: relative;
+    display: inline-block;
+    transition: all 0.4s;
+    margin-left:5px;
+  }
+  .tab input[type=checkbox]:checked + label::after,
+  .tab input[type=radio]:checked + label::after {
+    transform: rotate(90deg);
+  }
+
+  /* [THE CONTENTS] */
+  .tab-content {
+    overflow: hidden;
+    /* CSS animation will not work with auto height */
+    /* This is why we use max-height */
+    transition: max-height 0.4s; 
+    max-height: 0;
+  }
+  .tab-content p {
+    margin: 5px;
+  }
+  .tab input:checked ~ .tab-content {
+    /* Set the max-height to a large number */
+    /* Or 100% viewport height */
+    max-height: 100vh;
+  }
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+}
+
+.sequence-builder,
+.inputfield {
+  .descriptor {
+    font-style: italic;
+    font-size: 12px;
+    opacity: 0.4;
+    margin-top: 5px;
+  }
+}
+.main-panel > .content{
+  padding:0 20px 20px;
+}
